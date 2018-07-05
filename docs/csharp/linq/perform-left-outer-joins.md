@@ -11,7 +11,7 @@ ms.lasthandoff: 05/04/2018
 ms.locfileid: "33284271"
 ---
 # <a name="perform-left-outer-joins"></a>Executar junções externas esquerdas
-Uma junção externa esquerda é uma junção em que cada elemento da primeira coleção é retornado, mesmo que ele tenha elementos correlacionados na segunda coleção. É possível usar o LINQ para executar uma junção externa esquerda chamando o método <xref:System.Linq.Enumerable.DefaultIfEmpty%2A> nos resultados de uma junção de grupo.  
+Uma junção externa esquerda é uma junção em que cada elemento da primeira coleção é retornado, mesmo que ele não tenha elementos correlacionados na segunda coleção. É possível usar o LINQ para executar uma junção externa esquerda chamando o método <xref:System.Linq.Enumerable.DefaultIfEmpty%2A> nos resultados de uma junção de grupo.  
   
 ## <a name="example"></a>Exemplo  
  O exemplo a seguir demonstra como usar o método <xref:System.Linq.Enumerable.DefaultIfEmpty%2A> nos resultados de uma junção de grupo para executar uma junção externa esquerda.  
